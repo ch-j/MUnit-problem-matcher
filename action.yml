@@ -1,0 +1,9 @@
+name: MUnit Problem Matcher
+description: Attaches a problem matcher that looks for errors in MUnit testing with TAP output type
+author: Chen Jiang
+branding:
+  icon: check-square
+  color: blue
+runs:
+  using: 'node12'
+  main: 'index.js'
